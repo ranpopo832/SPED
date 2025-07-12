@@ -1,0 +1,66 @@
+/* Custom CSS - style.css */
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f0f4f8; /* 은은한 배경색 */
+    color: #333;
+    line-height: 1.6;
+}
+.container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem; /* 둥근 모서리 */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+h1, h2, h3, h4 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid #4a90e2;
+    padding-bottom: 1rem;
+}
+h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+h3 {
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #2980b9;
+}
+h4 {
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #1abc9c;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+ol {
+    list-style-type: decimal;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+strong {
+    color: #e74c3c; /* 강조 색상 */
+}
+.section-divider {
+    border-top: 1px dashed #ccc;
+    margin: 2rem 0;
+}
+.emoji {
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 1.2em;
+}
